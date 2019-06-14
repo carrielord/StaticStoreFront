@@ -27,7 +27,7 @@ header {
     width: 100%;
     }
     
-    header ul {
+header ul {
     width: 50%;
     vertical-align: bottom;
     float: right;
@@ -110,14 +110,29 @@ header {
 footer {
     background-color: #ff0080;
     height: 10vh;
-    font-size: 10em;
+    font-size: 100em;
     color: #fff;
     width: 100%;
     text-align: center;
     padding: 1em 2.0em;
 }
-/*footer ul{
-    display: inline-block;
-    padding: 0 0.7em 0 0;
-    margin: 0;
+/* footer ul{
+    padding: 0 10em 0 10em;
+    margin: 1em;
+} */
+footer a:visited{
+    color:#fff;
 }
+
+footer ul li {
+    margin: 0;
+    padding-right: 5em;
+    display: inline-block;
+    color: #fff;
+}
+
+.footerSpacing{
+    list-style-type: none;
+}
+
+
